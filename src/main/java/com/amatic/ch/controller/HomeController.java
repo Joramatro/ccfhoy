@@ -235,7 +235,8 @@ public class HomeController {
 	    Mail.sendMail(mensaje.toString(), "CCH " + request.getRequestURI());
 	    return null;
 	} else if (existsAccept) {
-	    Mail.sendMail(mensaje.toString(), "CCH " + request.getRequestURI());
+	    // Mail.sendMail(mensaje.toString(), "CCH " +
+	    // request.getRequestURI());
 	    model.addAttribute("publicacion", publicacion);
 	    if (url.endsWith("-2")) {
 		return "venta/venta2";

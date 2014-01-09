@@ -478,7 +478,7 @@ Script32: <input type="text" style="width: 600px;" id="script32" name="script32"
 		
 			<div class="span12">
 				<p>
-					&copy; 2013, <a href="/">Compra Cafetera Express</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2014, <a href="/">Compra Cafetera Express</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	

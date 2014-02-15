@@ -116,8 +116,8 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					Si lo que te gusta es tomarte un buen café en cualquier momento del día, existe una cafetera para ti y para cada tipo de cafe que desees: Comprar una cafetera puede ayudarte a conseguir saborear el mejor café en cápsulas ó molido en tu cafetera express italiana y en tu propia casa.<br>
-					Analizamos tanto las cafeteras express automáticas, dolce gusto, italianas como las máquinas de café más baratas y populares del mercado para que puedas decidir que cafetera comprar, estudiando las marcas más populares como Saeco, Senseo, Krups o Nescafe.
+					Si lo que te gusta es tomarte un buen café en cualquier momento del día, existe una cafetera espresso para ti y para cada tipo de cafe que desees: Comprar una cafetera puede ayudarte a conseguir saborear el mejor café en cápsulas ó molido en tu cafetera express italiana y en tu propia casa.<br>
+					Analizamos tanto las cafeteras express automáticas, dolce gusto, italianas como las máquinas de café más baratas y populares del mercado para que puedas decidir que cafetera comprar, estudiando las marcas más populares como las cafeteras Saeco, Senseo, Krups, Nescafe o cafeteras Dolce Gusto.
 				</h3>
         		<p><br><a class="btn btn-primary btn-large" title="Blog" href="/blog">ver Blog</a> &nbsp;&nbsp;<a title="Cafeteras" class="btn btn-primary btn-large" href="/cafeteras">ver Cafeteras</a></p>
       		</div>

@@ -236,13 +236,13 @@
 	</c:when>	
 	<c:otherwise>
 		<title>Bienvenido a Comprar Cafetera Express - Análisis y opinión sobre las mejores cafeteras para comprar online</title> 
-		<meta name="description" content="Información para que puedas comprar online tu cafetera express, automática, de cápsulas o de café molido adecuada y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe ya sean dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
+		<meta name="description" content="Información para que puedas comprar online tu cafetera express o espresso, automática, de cápsulas o de café molido adecuada y de las mejores marcas, cafeteras Saeco, Senseo, Krups, Nescafe o cafeteras Dolce Gusto, así como extras para tu maquina de cafe ya sean dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
 		<meta name="author" content="Comprar Cafetera Express" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
 		<meta name="application-name" content="cafeteras express en Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Bienvenido a Comprar Cafetera Express - Análisis y opinión sobre las mejores cafeteras para comprar online"/>
-		<meta property="og:description" content="Información para que puedas comprar tu cafetera express online de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
+		<meta property="og:description" content="Información para que puedas comprar tu cafetera express o espresso online de las mejores marcas como cafeteras Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
@@ -253,7 +253,7 @@
 		<meta name="twitter:site" content="@ComprarHoy">
 		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="Cafeteras express online, cafeteras automaticas, de cápsulas o de café molido en Comprar Cafetera Express">
-		<meta name="twitter:description" content="Información para que puedas comprar tu cafetera express online adecuada a lo que necesitas, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café">
+		<meta name="twitter:description" content="Información para que puedas comprar tu cafetera express online adecuada a lo que necesitas y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café">
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->				

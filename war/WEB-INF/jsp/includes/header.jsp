@@ -40,6 +40,15 @@
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
+		<!--
+		  <PageMap>
+		    <DataObject type="thumbnail">
+		      <Attribute name="src" value="${publicacion.lImages[0]}"/>
+		      <Attribute name="width" value="100"/>
+		      <Attribute name="height" value="130"/>
+		    </DataObject>
+		  </PageMap>
+		-->
 		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}“/>
 	</c:when>
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'AR'}">
@@ -65,6 +74,15 @@
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
+		<!--
+		  <PageMap>
+		    <DataObject type="thumbnail">
+		      <Attribute name="src" value="${publicacion.lImages[0]}"/>
+		      <Attribute name="width" value="100"/>
+		      <Attribute name="height" value="130"/>
+		    </DataObject>
+		  </PageMap>
+		-->
 		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/blog/${publicacion.url}“/>
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
@@ -146,6 +164,41 @@
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/contacto“/>
 	</c:when>
+	
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
+		<title>Cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express</title> 
+		<meta name="description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
+		<meta name="author" content="Jorge Amat" />
+		<meta name="copyright" content="Comprar Cafetera Express" />
+		<meta name="application-name" content="Cafeteras en Comprar Cafetera Express" />
+		<!-- start: Facebook Open Graph -->		
+		<meta property="og:title" content="Cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/>
+		<meta property="og:description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
+		<meta property="og:type" content="cafetera"/>
+		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+			</c:if>
+		</c:if>
+		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@ComprarHoy">
+		<meta name="twitter:creator" content="@ComprarHoy">
+		<meta property="twitter:title" content="Cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/>
+		<meta name="twitter:description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
+			</c:if>
+		</c:if>
+		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
+		<!-- end: Twitter tags -->	
+		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras“/>	
+	</c:when>	
+	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
 		<title>Cafeteras, precios y análisis en Comprar Cafetera Express</title> 
 		<meta name="description" content="Análisis y precios de las mejores cafeteras express, máquinas de cafe automáticas, de cápsulas o de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto para que puedas comprar y comparar online"/>
@@ -176,9 +229,44 @@
 			</c:if>
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras“/>
-		<!-- end: Twitter tags -->		
+		<!-- end: Twitter tags -->	
+		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras“/>	
 	</c:when>
+	
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog') && not empty param.filtro}">
+		<title>Artículos y opinión sobre cafeteras express de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express</title> 
+		<meta name="description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
+		<meta name="author" content="Jorge Amat" />
+		<meta name="copyright" content="Comprar Cafetera Express" />
+		<meta name="application-name" content="Blog en Comprar Cafetera Express" />
+		<!-- start: Facebook Open Graph -->
+		<meta property="og:title" content="Artículos y opinión sobre cafeteras express de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/> 
+		<meta property="og:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
+		<meta property="og:type" content="articulo"/>
+		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+			</c:if>
+		</c:if>
+		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@ComprarHoy">
+		<meta name="twitter:creator" content="@ComprarHoy">
+		<meta property="twitter:title" content="Artículos y opinión sobre cafeteras express de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/> 
+		<meta property="twitter:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
+			</c:if>
+		</c:if>
+		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
+		<!-- end: Twitter tags -->
+		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/blog“/>		
+	</c:when>
+	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos y opinión sobre cafeteras express en Comprar Cafetera Express</title> 
 		<meta name="description" content="Opinión y artículos en nuestro blog de las mejores cafeteras express, automaticas, de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto en la actualidad para que puedas comprar online"/>
@@ -296,6 +384,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-44277459-1', 'comprarcafeteraexpress.com');
+ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 
 </script>

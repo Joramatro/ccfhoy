@@ -28,6 +28,7 @@
 	<!--start: Wrapper-->
 	<div id="wrapper">
 		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
+		<%--
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- superior 2 skyscraper cafetera -->
 			<ins class="adsbygoogle"
@@ -37,6 +38,7 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
+			--%>
 		</div>				
 		<!-- start: Container -->	
 		<div class="container">
@@ -81,6 +83,7 @@
 			
 			<div class="clear" style="padding-top: 25px;"></div>
 			<div id="banGoogleMasVistos" style="margin-bottom: 25px;" class="iframe_wrap">
+			<%--
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- rectangulo abajo cafetera -->
 				<ins class="adsbygoogle"
@@ -90,6 +93,7 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+				--%>
 			</div>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>	
 			

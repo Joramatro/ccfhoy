@@ -49,7 +49,7 @@
 		    </DataObject>
 		  </PageMap>
 		-->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}"/>
 	</c:when>
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'AR'}">
 		<title>${publicacion.titulo} en Comprar Cafetera Express</title> 
@@ -83,7 +83,7 @@
 		    </DataObject>
 		  </PageMap>
 		-->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/blog/${publicacion.url}“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/blog/${publicacion.url}"/>
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
 		<title>Extras y accesorios online para tu cafetera en Comprar Cafetera Express</title> 
@@ -112,7 +112,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->		
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/extras“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/extras"/>
 	</c:when>
 		<c:when test="${fn:contains(pageContext.request.requestURI, 'sobre')}">
 		<title>Sobre Nosotros y Comprar Cafetera Express</title> 
@@ -137,7 +137,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/sobre“/>	
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/sobre"/>	
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
 		<title>Contacta con Comprar Cafetera Express</title> 
@@ -162,7 +162,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/contacto“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/contacto"/>
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
@@ -196,7 +196,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->	
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras“/>	
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/cafeteras"/>	
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
@@ -230,7 +230,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->	
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/cafeteras“/>	
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/cafeteras"/>	
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog') && not empty param.filtro}">
@@ -264,7 +264,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/blog“/>		
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/blog"/>		
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
@@ -298,7 +298,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/blog“/>		
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/blog"/>		
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'privacidad')}">
 		<title>Política de privacidad de Comprar Cafetera Express</title> 
@@ -319,7 +319,7 @@
 		<meta name="twitter:title" content="Política de privacidad de Comprar Cafetera Express">
 		<meta name="twitter:description" content="Política de privacidad y condiciones de uso de Comprar Cafetera Express">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com/">
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com/politica-de-privacidad“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/politica-de-privacidad"/>
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	<c:otherwise>
@@ -345,7 +345,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->				
-		<link rel=”canonical” href=”http://www.comprarcafeteraexpress.com“/>
+		<link rel="canonical" href="http://www.comprarcafeteraexpress.com"/>
 	</c:otherwise>		
 	</c:choose>
 	<link rel="alternate" type="application/rss+xml" title="Comprar Cafetera Express RSS Feed" href="http://www.comprarcafeteraexpress.com/rssfeed" />
@@ -386,7 +386,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-44277459-1', 'comprarcafeteraexpress.com');
 ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
-
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
 </script>
 </head>
 <body>
@@ -451,7 +451,7 @@ ga('send', 'pageview');
 		</div>
 		<!--end: Container-->			
 	<div id="banGooHeader" class="iframe_wrap" style="width: 74%; margin:0 auto;">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- superior 1 skyscraper cafetera -->
 		<ins class="adsbygoogle"
 		     style="display:inline-block;width:728px;height:90px"
@@ -460,6 +460,7 @@ ga('send', 'pageview');
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
+		--%>
 	</div>			
 	</header>
 	<!--end: Header-->

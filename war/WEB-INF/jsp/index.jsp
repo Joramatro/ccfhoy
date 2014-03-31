@@ -75,6 +75,7 @@
 	    	</td>
 	    	<td>
 			<div id="googleRecIndex1" class="iframe_wrap">
+			<%-- 
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- rectangulo index izquierda cafetera -->
 				<ins class="adsbygoogle"
@@ -84,10 +85,12 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+			--%>
 			</div>
 			</td>
 			<td>
 			<div id="googleRecIndex2" class="iframe_wrap">
+			<%--
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- rectangulo index derecha cafetera -->
 				<ins class="adsbygoogle"
@@ -97,6 +100,7 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+			--%>
 			</div>
 			</td>
 			<td>

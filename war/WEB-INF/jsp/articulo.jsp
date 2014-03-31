@@ -60,6 +60,7 @@
     		<br>    	
     	
 	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
+	    	<%--
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- articulo superior recuadro cafetera 2 -->
 				<ins class="adsbygoogle"
@@ -69,6 +70,7 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+				--%>
 			</div>	
 			<!-- start: Flexslider -->
 			<div style="width: 365px;height: 385px; margin-left: 355px;" class="slider" >
@@ -151,6 +153,7 @@
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a></p>
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
+				<%--
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- fin articulo skyscraper cafetera -->
 					<ins class="adsbygoogle"
@@ -160,6 +163,7 @@
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
+					--%>
 				</div>				
 			</div>
 			<!-- end: Row -->

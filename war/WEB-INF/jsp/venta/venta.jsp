@@ -15,6 +15,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-44277459-1', 'comprarcafeteraexpress.com');
 ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
 
 </script>
 </head>

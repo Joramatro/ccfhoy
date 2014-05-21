@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Comprarcafeterahoy</name>
+	<name>Copy of Comprarcafeterahoy</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,4 +30,16 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>com.google.appengine.eclipse.core.gaeNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>java</name>
+			<type>2</type>
+			<location>C:/proyectos/Comprarebookhoy/CHControllerModel/java</location>
+		</link>
+		<link>
+			<name>test</name>
+			<type>2</type>
+			<location>C:/proyectos/Comprarebookhoy/CHControllerModel/test</location>
+		</link>
+	</linkedResources>
 </projectDescription>

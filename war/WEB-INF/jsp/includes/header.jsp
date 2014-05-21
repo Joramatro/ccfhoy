@@ -384,9 +384,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-44277459-1', 'comprarcafeteraexpress.com');
-ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
 ga('send', 'pageview');
-ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
 </script>
 </head>
 <body>
@@ -451,7 +451,7 @@ ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'st
 		</div>
 		<!--end: Container-->			
 	<div id="banGooHeader" class="iframe_wrap" style="width: 74%; margin:0 auto;">
-		<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- superior 1 skyscraper cafetera -->
 		<ins class="adsbygoogle"
 		     style="display:inline-block;width:728px;height:90px"
@@ -460,7 +460,7 @@ ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'st
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-		--%>
+		
 	</div>			
 	</header>
 	<!--end: Header-->

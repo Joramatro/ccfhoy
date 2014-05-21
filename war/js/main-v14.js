@@ -20,6 +20,9 @@ $(function(){
 	        	  "clase3": $("#clase3").val(),
 	        	  "clase4": $("#clase4").val(),
 	        	  "clase7": $("#clase7").val(),
+	        	  "clase10": $("#clase10").val(),
+	        	  "clase11": $("#clase11").val(),
+	        	  "clase12": $("#clase12").val(),
 	        	  "tipo": $("#tipo").val(),
 	        	  "autor": $("#autor").val(),
 	        	  "googleAutor": $("#googleAutor").val(),
@@ -35,6 +38,10 @@ $(function(){
 	        	  "script22": $("#script22").val(),
 	        	  "script31": $("#script31").val(),
 	        	  "script32": $("#script32").val(),
+	        	  "script41": $("#script41").val(),
+	        	  "script42": $("#script42").val(),
+	        	  "script51": $("#script51").val(),
+	        	  "script52": $("#script52").val(),
 	        	  "disponible": $("#disponible").val()
 	          },
 		      success: function(text){
@@ -68,6 +75,9 @@ $(function(){
 	        	  "clase3": $("#clase3").val(),
 	        	  "clase4": $("#clase4").val(),
 	        	  "clase7": $("#clase7").val(),
+	        	  "clase10": $("#clase10").val(),
+	        	  "clase11": $("#clase11").val(),
+	        	  "clase12": $("#clase12").val(),
 	        	  "tipo": $("#tipo").val(),
 	        	  "autor": $("#autor").val(),
 	        	  "googleAutor": $("#googleAutor").val(),
@@ -83,6 +93,10 @@ $(function(){
 	        	  "script22": $("#script22").val(),
 	        	  "script31": $("#script31").val(),
 	        	  "script32": $("#script32").val(),
+	        	  "script41": $("#script41").val(),
+	        	  "script42": $("#script42").val(),
+	        	  "script51": $("#script51").val(),
+	        	  "script52": $("#script52").val(),
 	        	  "disponible": $("#disponible").val()
 	          },
 		      success: function(text){

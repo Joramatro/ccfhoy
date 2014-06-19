@@ -105,6 +105,9 @@ Descripcion: <input type="text" style="width: 633px;" id="descripcion" name="des
 Clase1: <input type="text" id="clase1" name="clase1" size="20" maxlength="20"/>
 Clase2: <input type="text" id="clase2" name="clase2" size="20" maxlength="20"/>
 Clase3: <input type="text" id="clase7" name="clase7" size="20" maxlength="20"/>
+Clase4: <input type="text" id="clase10" name="clase10" size="20" maxlength="20"/>
+Clase5: <input type="text" id="clase11" name="clase11" size="20" maxlength="20"/>
+Clase6: <input type="text" id="clase12" name="clase12" size="20" maxlength="20"/>
 ClasePr3: <input type="text" id="clase3" name="clase3" size="20" maxlength="20"/>
 ClasePr4: <input type="text" id="clase4" name="clase4" size="20" maxlength="20"/>
 <br><br>
@@ -130,6 +133,10 @@ Script21: <input type="text" style="width: 600px;" id="script21" name="script21"
 Script22: <input type="text" style="width: 600px;" id="script22" name="script22" size="300" maxlength="300"><br><br>
 Script31: <input type="text" style="width: 600px;" id="script31" name="script31" size="300" maxlength="300"><br><br>				
 Script32: <input type="text" style="width: 600px;" id="script32" name="script32" size="300" maxlength="300"><br><br>
+Script41: <input type="text" style="width: 600px;" id="script41" name="script41" size="300" maxlength="300"><br><br>				
+Script42: <input type="text" style="width: 600px;" id="script42" name="script42" size="300" maxlength="300"><br><br>
+Script51: <input type="text" style="width: 600px;" id="script51" name="script51" size="300" maxlength="300"><br><br>				
+Script52: <input type="text" style="width: 600px;" id="script52" name="script52" size="300" maxlength="300"><br><br>
 <table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
 <tr>
 <td><div align="center">

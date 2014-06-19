@@ -62,7 +62,7 @@
 			</ul>    	
     		<br>    	
     	
-	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
+	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 812px;margin-top: 100px;">
 	    	
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- articulo superior recuadro cafetera 2 -->
@@ -76,7 +76,7 @@
 				
 			</div>	
 			<!-- start: Flexslider -->
-			<div style="width: 365px;height: 385px; margin-left: 355px;" class="slider" >
+			<div style="width: 330px;height: 423px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
 					<c:if test="${publicacion.disponible eq 'S' }">
 						<a target="_blank" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Superior');" href="/venta/principal/${publicacion.url}">
@@ -151,7 +151,7 @@
 					${publicacion.articulo}				
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
+						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>					
 					
 					<!-- AddThis Button BEGIN -->
@@ -177,7 +177,7 @@
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión para aportar más detalles sobre el producto en la sección de <a href="#comments">comentarios</a></p>
 				</div>
-				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
+				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto; display:none">
 				
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- fin articulo skyscraper cafetera -->
@@ -189,6 +189,17 @@
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 					
+				</div>
+				<div id="banGoogleFinArticuloMob" class="iframe_wrap" style="width: 64%; margin:0 auto;display:none">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- mobile end article -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:320px;height:100px"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="7031584944"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
 				</div>					
 			</div>
 			<!-- end: Row -->
@@ -527,6 +538,14 @@
 	    $('.migapan').click(function(e) {
 	    	ga('send', 'event', 'Migas', 'Miga '+$(e.target).text(), $(e.target).text());  
 	    });
+	});
+	
+	jQuery(document).ready(function($){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
+			$("#banGoogleFinArticuloMob").show();
+		}else{
+			$("#banGoogleFinArticulo").show();
+		}
 	});
 	</script>	
 

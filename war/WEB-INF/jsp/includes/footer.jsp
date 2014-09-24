@@ -70,7 +70,7 @@
 					
 					<h3>Sobre nosotros</h3>
 					<p>
-						Somos un equipo de personas amantes del cafe y que quiere ofrecerte la mejor información y todos los detalles que necesitas saber sobre la cafetera que quieres comprar.
+						Somos un equipo de personas amantes del café y que quiere ofrecerte la mejor información y todos los detalles que necesitas saber sobre la cafetera que quieres comprar.
 					</p>
 						
 				</div>

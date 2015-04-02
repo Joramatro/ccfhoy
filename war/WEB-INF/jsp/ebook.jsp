@@ -63,7 +63,7 @@
     		<br>    	
     	
 			<!-- start: Flexslider -->
-			<div style="max-width: 330px;height: 423px; margin: 0 auto;" class="slider" >
+			<div style="max-width: 394px;height: 423px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
 					<c:if test="${publicacion.disponible eq 'S' }">
 						<a target="_blank" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Superior');" href="/venta/principal/${publicacion.url}">

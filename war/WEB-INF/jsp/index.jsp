@@ -61,62 +61,6 @@
 				
 		<!--start: Container -->
     	<div class="container">
-		<table style="margin: 0px auto -43px">
-    		<tr>
-    		<td>
-	    	<div id="Amazon1" class="iframe_wrap">
-	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmovsh-21&o=30&p=8&l=as1&asins=B008GS8RDK&ref=qf_sp_asin_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	    	</div>
-	    	</td>
-	    	<td>
-	    	<div id="Amazon2" class="iframe_wrap">
-	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarcafeh-21&o=30&p=8&l=as1&asins=B005DER236&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	    	</div>
-	    	</td>
-	    	<td>
-			<div id="googleRecIndex1" class="iframe_wrap">
-			 
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index izquierda cafetera -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="5180410941"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			
-			</div>
-			</td>
-			<td>
-			<div id="googleRecIndex2" class="iframe_wrap">
-			
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index derecha cafetera -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="2527995747"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			
-			</div>
-			</td>
-			<td>
-	    	<div id="Amazon3" class="iframe_wrap">
-	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarcafeh-21&o=30&p=8&l=as1&asins=B005DD3NVC&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	    	</div>
-	    	</td>
-	    	<td>
-	    	<div id="Amazon4" class="iframe_wrap">
-				<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarcafeh-21&o=30&p=8&l=as1&asins=B004IZOAFO&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	    	</div>
-	    	</td>
-	    	</tr>
-	    </table>		
-			<hr>
-	
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
@@ -127,6 +71,19 @@
       		</div>
 			<!-- end: Hero Unit -->
       		
+      		<div id="googleRecIndex1" class="iframe_wrap">			
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- index1r -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="2638269742"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			
 			<hr>
 			<!-- start: Row -->
 			<div class="row">
@@ -263,32 +220,13 @@
 	    });
 
 	});
-	
-	if($('#footer').width() < 1345){
-		$("#Amazon3").hide();
-		$("#Amazon4").hide();
-		$("#googleRecIndex2").hide();
-	}
+
 	
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		$(".titPortada").css("font-size","38px");
 		$(".descPortada").css("font-size","14px");
-		$("#Amazon3").hide();
-		$("#Amazon4").hide();
-		$("#googleRecIndex2").hide();
 	}
 	
-	$(window).bind('resize', function () { 
-		if($('#footer').width() < 1345){
-			$("#Amazon3").hide();
-			$("#Amazon4").hide();
-			$("#googleRecIndex2").hide();
-		}else{
-			$("#Amazon3").show();
-			$("#Amazon4").show();
-			$("#googleRecIndex2").show();
-		}
-	});
 </script>
 
 </body>

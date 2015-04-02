@@ -28,22 +28,21 @@
 	<!--start: Wrapper-->
 	<div id="wrapper">
 		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
-		
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- superior 2 skyscraper cafetera -->
+			<!-- interior1r -->
 			<ins class="adsbygoogle"
-			     style="display:inline-block;width:728px;height:90px"
+			     style="display:block"
 			     data-ad-client="ca-pub-3168560600423825"
-			     data-ad-slot="8133877340"></ins>
+			     data-ad-slot="9603133345"
+			     data-ad-format="auto"></ins>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			
 		</div>				
 		<!-- start: Container -->	
 		<div class="container">
 
-			<div id="filters" style="margin-top: 15px;">
+			<div id="filters" style="margin-top: 20px;">
 				<ul class="option-set" data-option-key="filter">
 					<li><a href="#filter" class="selected" data-option-value="*">Todos</a></li>
 					<c:forEach var="categoria" items="${categorias}" varStatus="status" >
@@ -83,17 +82,16 @@
 			
 			<div class="clear" style="padding-top: 25px;"></div>
 			<div id="banGoogleMasVistos" style="margin-bottom: 25px;" class="iframe_wrap">
-			
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo abajo cafetera -->
+				<!-- interior1r -->
 				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
+				     style="display:block"
 				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3564076949"></ins>
+				     data-ad-slot="9603133345"
+				     data-ad-format="auto"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
-				
 			</div>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>	
 			

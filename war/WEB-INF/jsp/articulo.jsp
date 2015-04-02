@@ -59,21 +59,8 @@
 			</ul> 
     		<br>    	
     	
-	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 812px;margin-top: 100px;">
-	    	
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- articulo superior recuadro cafetera 2 -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="7360953743"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-				
-			</div>	
 			<!-- start: Flexslider -->
-			<div style="width: 385px;height: 423px; margin: 0 auto;" class="slider" >
+			<div style="max-width: 385px;height: 423px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
 					<c:if test="${publicacion.disponible eq 'S' }">
 						<a target="_blank" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Superior');" href="/venta/principal/${publicacion.url}">
@@ -173,37 +160,25 @@
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a></p>
 				</div>	
-				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;display:none">
-				
+				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- fin articulo skyscraper cafetera -->
+					<!-- interior1r -->
 					<ins class="adsbygoogle"
-					     style="display:inline-block;width:728px;height:90px"
+					     style="display:block"
 					     data-ad-client="ca-pub-3168560600423825"
-					     data-ad-slot="5320011740"></ins>
+					     data-ad-slot="9603133345"
+					     data-ad-format="auto"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
-					
-				</div>
-				<div id="banGoogleFinArticuloMob" class="iframe_wrap" style="width: 64%; margin:0 auto;display:none">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- mobile end article -->
-					<ins class="adsbygoogle"
-					     style="display:inline-block;width:320px;height:100px"
-					     data-ad-client="ca-pub-3168560600423825"
-					     data-ad-slot="7031584944"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>				
+				</div>	
 			</div>
 			<!-- end: Row -->
 			
 			
 			<hr><hr>
 			
-			<div id="ttpi"></div>
+			<div id="ttpi" style="margin-top:7%"></div>
 				<!-- start: Row --> 
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>
 			
@@ -420,15 +395,7 @@
 	
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
-	<script>
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$("#banGoogle").hide();
-		}
-		if($('#footer').width() < 1345){
-			$("#banGoogle").hide();
-		}
-	</script>
-	<div id="banAmazonHorizontal" style="position:absolute;top:990px;left:54px;">
+	<div id="banAmazonHorizontal" style="position:absolute;top:990px;left:54px;color:#F57C17">
 		<div style="margin-left: 33px; margin-bottom: 12px;"><b>OFERTAS</b></div>
 			<%-- <div id="Amazon1" class="iframe_wrap">
 	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=EBF7F9&IS2=1&bg1=EBF7F9&fc1=666666&lc1=005580&t=comprarmicroh-21&o=30&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B007HMLEAY" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>   		   		
@@ -464,6 +431,8 @@
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
+			$("#_image6").css('margin-left', '');
+			$(".imageContextual").css('margin-left', '');
 		}
 		if($('#footer').width() < 1345){
 			$("#banAmazonEsquina").hide();
@@ -472,11 +441,6 @@
 	</script>
 	<script>
 	$(window).bind('resize', function () { 
-		if($('#footer').width() < 1345){
-			$("#banGoogle").hide();
-		}else{
-			$("#banGoogle").show();
-		}
 		if($('#footer').width() < 855){
 			$("#banAmazonHorizontal").hide();
 		}else{
@@ -494,12 +458,14 @@
 	$(window).scroll(function(){
 		if($('#footer').width() >= 855){
 			if($(window).scrollTop() > 990){
-				$("#banAmazonHorizontal").css("top", $(window).scrollTop());
-			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top){
+				$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
+			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180){
 			    	$("#banAmazonHorizontal").hide();
 			    }else{
 			    	$("#banAmazonHorizontal").show();
 			    }
+			}else{
+				$("#banAmazonHorizontal").css({position:"absolute",top:"990px",left:"54px"});
 			}
 		}
 	});	
@@ -537,13 +503,6 @@
 	    });
 	});
 	
-	jQuery(document).ready(function($){
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
-			$("#banGoogleFinArticuloMob").show();
-		}else{
-			$("#banGoogleFinArticulo").show();
-		}
-	});
 	</script>
 
 </body>

@@ -114,13 +114,15 @@ public class BlogController extends PublicacionAbstract {
 	    HttpServletResponse response) throws IOException,
 	    NoSuchAlgorithmException {
 	String originalUrl = url;
+	String keyb = null;
 	if (url.endsWith("-2")) {
 	    originalUrl = originalUrl.replace("-2", "");
 	}
 	if (url.endsWith("-3")) {
 	    originalUrl = originalUrl.replace("-3", "");
 	}
-	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " "));
+	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " ")
+		.toLowerCase());
 	Publicacion publicacion = null;
 	if (tipo.equals("principal")) {
 	    publicacion = publicacionService.getPublicacion(key,
@@ -129,9 +131,25 @@ public class BlogController extends PublicacionAbstract {
 		publicacion = publicacionService.getPublicacion(key,
 			WebConstants.SessionConstants.ARTICULO);
 	    }
+	    if (publicacion == null && !originalUrl.equals(url)) {
+		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")
+			.toLowerCase()));
+		publicacion = publicacionService.getPublicacion(keyb,
+			WebConstants.SessionConstants.EBOOK);
+		if (publicacion == null) {
+		    publicacion = publicacionService.getPublicacion(keyb,
+			    WebConstants.SessionConstants.ARTICULO);
+		}
+	    }
 	} else if (tipo.equals("extra")) {
 	    publicacion = publicacionService.getPublicacion(key,
 		    WebConstants.SessionConstants.ACCESORIO);
+	    if (publicacion == null && !originalUrl.equals(url)) {
+		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")
+			.toLowerCase()));
+		publicacion = publicacionService.getPublicacion(keyb,
+			WebConstants.SessionConstants.ACCESORIO);
+	    }
 	} else if (tipo.equals("marca")) {
 	    publicacion = new Publicacion();
 	    if (url.equals("logo1")) {
@@ -237,12 +255,24 @@ public class BlogController extends PublicacionAbstract {
 	    // Mail.sendMail(mensaje.toString(), "CCH " +
 	    // request.getRequestURI());
 	    model.addAttribute("publicacion", publicacion);
-	    if (url.endsWith("-2")) {
-		return "venta/venta2";
-	    } else if (url.endsWith("-3")) {
-		return "venta/venta3";
+
+	    if (keyb != null) {
+		String lastTwoChars = url.substring(url.length() - 2);
+		if (url.endsWith(lastTwoChars + "-2")) {
+		    return "venta/venta2";
+		} else if (url.endsWith(lastTwoChars + "-3")) {
+		    return "venta/venta3";
+		} else {
+		    return "venta/venta";
+		}
 	    } else {
-		return "venta/venta";
+		if (url.endsWith("-2")) {
+		    return "venta/venta2";
+		} else if (url.endsWith("-3")) {
+		    return "venta/venta3";
+		} else {
+		    return "venta/venta";
+		}
 	    }
 	} else {
 	    // mensaje.append("NO ENVIADO A VENTAS POR NO TENER ACCEPT");

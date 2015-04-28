@@ -109,25 +109,8 @@
 					</ul>					
 				</div>				
 				<div class="span10">
-				<!-- AddThis Button BEGIN -->
-					<div class="addthis_toolbox addthis_default_style ">
-					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-					<a class="addthis_button_tweet"></a>
-					<a class="addthis_button_pinterest_pinit"></a>
-					<a class="addthis_counter addthis_pill_style"></a>&nbsp;&nbsp;
-					<g:plusone href="/cafeteras/${publicacion.url}" align="right" size="medium"></g:plusone>
-					</div>
-					<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
-					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-523eb37018889803"></script>
-					<!-- AddThis Button END -->
-					<!-- Botón +1. -->
-					<script type="text/javascript">
-					  (function() {
-					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-					    po.src = 'https://apis.google.com/js/plusone.js';
-					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-					  })();
-					</script> 
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+					<div class="addthis_native_toolbox"></div> 
 					
 					<br>
 				
@@ -141,25 +124,8 @@
 						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>					
 					
-					<!-- AddThis Button BEGIN -->
-					<div class="addthis_toolbox addthis_default_style ">
-					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-					<a class="addthis_button_tweet"></a>
-					<a class="addthis_button_pinterest_pinit"></a>
-					<a class="addthis_counter addthis_pill_style"></a>&nbsp;&nbsp;
-					<g:plusone href="/cafeteras/${publicacion.url}" align="right" size="medium"></g:plusone>
-					</div>
-					<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
-					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-523eb37018889803"></script>
-					<!-- AddThis Button END -->
-					<!-- Botón +1. -->
-					<script type="text/javascript">
-					  (function() {
-					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-					    po.src = 'https://apis.google.com/js/plusone.js';
-					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-					  })();
-					</script> 
+					<!-- Go to www.addthis.com/dashboard to customize your tools -->
+					<div class="addthis_native_toolbox"></div> 
 					
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión para aportar más detalles sobre el producto en la sección de <a href="#comments">comentarios</a></p>
@@ -475,19 +441,6 @@
 	</script>
 	<script>
 	jQuery(document).ready(function($){
-	    $('.iframe_wrap iframe').iframeTracker({
-	        blurCallback: function(){
-	            // You can know which iframe element is clicked via this._overId
-	        	ga('send', 'event', 'Banner', '${publicacion.url}' , this._overId);
-	        },
-	        overCallback: function(element){
-	            this._overId = $(element).parents('.iframe_wrap').attr('id'); // Saving the iframe wrapper id
-	        },
-	        outCallback: function(element){
-	            this._overId = null; // Reset hover iframe wrapper id
-	        },
-	        _overId: null
-	    });
 	    
 	    $('#_image6').click(function() {
 	    	ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Medio');  
@@ -507,6 +460,8 @@
 	});
 	
 	</script>	
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5213a7af197d855e" async="async"></script>
 
 </body>
 </html>

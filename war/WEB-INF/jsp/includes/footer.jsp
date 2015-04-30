@@ -150,16 +150,16 @@
 							</div>
 						</li>
 					</ul>
-					<!-- end: Follow Us -->
-				
-					<!-- start: Newsletter -->
+					
+					<!-- end: Follow Us -->									
 					<h3>Suscríbete! &nbsp; <a href="http://www.comprarcafeteraexpress.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
+					<!-- start: Newsletter -->
 					<form id="newsletter" action="//comprarcafeteraexpress.us10.list-manage.com/subscribe/post?u=be0d93d06749aa38388fc7336&amp;id=d15e19130b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>	
 						<p>Por favor, déjanos tu email para recibir novedades en el mundo del café y ofertas exclusivas sobre cafeteras.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df" type="text" name="EMAIL" id="mce-EMAIL" placeholder="Introduce tu email">
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_fa305d6ec0ab2ca194c14e92b_d2be27c462" tabindex="-1" value=""></div>
+    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_be0d93d06749aa38388fc7336_d15e19130b" tabindex="-1" value=""></div>
 						<input type="submit" value="Suscribirme" name="Suscribirme" id="mc-embedded-subscribe">												
 					</form>
 					<!-- end: Newsletter -->

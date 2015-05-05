@@ -91,7 +91,7 @@
 				<div class="span6">
 				
 					<!-- start: Follow Us -->
-					<h3>Síguenos!</h3>
+					<h3><img src="/img/logo_follow.png" alt="Más">&nbsp;Síguenos!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
@@ -152,7 +152,7 @@
 					</ul>
 					
 					<!-- end: Follow Us -->									
-					<h3>Suscríbete! &nbsp; <a href="http://www.comprarcafeteraexpress.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
+					<h3>Suscríbete!</h3>
 					<!-- start: Newsletter -->
 					<form id="newsletter" action="//comprarcafeteraexpress.us10.list-manage.com/subscribe/post?u=be0d93d06749aa38388fc7336&amp;id=d15e19130b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>	
 						<p>Por favor, déjanos tu email para recibir novedades en el mundo del café y ofertas exclusivas sobre cafeteras.</p>

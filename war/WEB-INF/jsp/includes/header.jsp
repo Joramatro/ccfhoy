@@ -125,7 +125,7 @@
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="sobre"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/sobre"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -134,7 +134,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Sobre nosotros en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/sobre"/>	
@@ -150,7 +150,7 @@
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Cafetera Express"/>
 		<meta property="og:type" content="contacto"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -159,7 +159,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Contacta con nosotros en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Contacta con los que trabajamos en Comprar Cafetera Express">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/contacto"/>
@@ -333,7 +333,7 @@
 		<meta property="og:description" content="Información para que puedas comprar tu cafetera express o espresso online de las mejores marcas como cafeteras Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -342,7 +342,7 @@
 		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="Cafeteras express online, cafeteras automaticas, de cápsulas o de café molido en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Información para que puedas comprar tu cafetera express online adecuada a lo que necesitas y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com"/>
@@ -368,7 +368,7 @@
     <!-- start: CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive-v1.min.css" rel="stylesheet">
-    <link href="/css/parallax-sliderv1.css" rel="stylesheet">   
+    <link href="/css/parallax-sliderv2.css" rel="stylesheet">   
 	<%@ include file="/WEB-INF/jsp/includes/styles.jsp"%>
 	<!-- end: CSS -->
 

@@ -20,7 +20,7 @@
 		<meta name="description" content="${publicacion.descripcion} en Comprar Cafetera Express"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="${publicacion.titulo} en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar Cafetera Express"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar Cafetera Express"/>
@@ -54,7 +54,7 @@
 		<meta name="description" content="${publicacion.descripcion}"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="${publicacion.titulo} en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -88,7 +88,7 @@
 		<meta name="description" content="Accede a todos los extras para comprar online accesorios para tu cafetera express, automática, de cápsulas o de café molido como un dispensador de cápsulas, paquetes de cápsulas ó filtros de café"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Extras en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras y accesorios online para tu cafetera en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios para tu cafetera express como un dispensador de cápsulas, paquetes de cápsulas ó filtros de café"/>
@@ -117,7 +117,6 @@
 		<meta name="description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Sobre Nosotros en Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales"/>
@@ -142,7 +141,6 @@
 		<meta name="description" content="Contacta con los que trabajamos en Comprar Cafetera Express"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Contacto en Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Cafetera Express"/>
@@ -168,7 +166,7 @@
 		<meta name="description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Cafeteras en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->		
 		<meta property="og:title" content="Cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
@@ -202,7 +200,7 @@
 		<meta name="description" content="Análisis y precios de las mejores cafeteras express, máquinas de cafe automáticas, de cápsulas o de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto para que puedas comprar y comparar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Cafeteras en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Cafeteras, precios y análisis en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Análisis y precios de las mejores cafeteras express, máquinas de cafe automáticas, de cápsulas o de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto para que puedas comprar y comparar online"/>
@@ -236,7 +234,7 @@
 		<meta name="description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Blog en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre cafeteras express de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/> 
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
@@ -270,7 +268,7 @@
 		<meta name="description" content="Opinión y artículos en nuestro blog de las mejores cafeteras express, automaticas, de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto en la actualidad para que puedas comprar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Blog en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinión y detalles sobre cafeteras express para comprar tu maquina de cafe online"/>
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras express, automaticas, de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto en la actualidad para que puedas comprar online"/>
@@ -303,7 +301,6 @@
 		<meta name="description" content="Política de privacidad y condiciones de uso de Comprar Cafetera Express"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="Política privacidad Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Política de privacidad de Comprar Cafetera Express"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Comprar Cafetera Express"/>
@@ -325,7 +322,7 @@
 		<meta name="description" content="Información para que puedas comprar online tu cafetera express o espresso, automática, de cápsulas o de café molido adecuada y de las mejores marcas, cafeteras Saeco, Senseo, Krups, Nescafe o cafeteras Dolce Gusto, así como extras para tu maquina de cafe ya sean dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
 		<meta name="author" content="Comprar Cafetera Express" />
 		<meta name="copyright" content="Comprar Cafetera Express" />
-		<meta name="application-name" content="cafeteras express en Comprar Cafetera Express" />
+		<meta name="application-name" content="Comprar Cafetera Express" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Bienvenido a Comprar Cafetera Express - Análisis y opinión sobre las mejores cafeteras para comprar online"/>
 		<meta property="og:description" content="Información para que puedas comprar tu cafetera express o espresso online de las mejores marcas como cafeteras Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>

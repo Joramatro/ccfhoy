@@ -28,7 +28,7 @@
 	
 	<!--start: Wrapper -->
 	<div itemscope itemtype="http://schema.org/Article" id="wrapper">
-		<link  itemprop="url" href="http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}" />
+		<link  itemprop="url" href="http://www.comprarcafeteraexpress.com/blog/${publicacion.url}" />
 		<meta itemprop="publisher" content="Comprar Cafetera Express" />		
 		<!--start: Container -->
     	<div class="container">

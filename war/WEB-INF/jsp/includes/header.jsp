@@ -24,7 +24,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar Cafetera Express"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar Cafetera Express"/>
-		<meta property="og:type" content="cafetera"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
@@ -58,7 +58,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
-		<meta property="og:type" content="articulos"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
@@ -92,7 +92,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras y accesorios online para tu cafetera en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios para tu cafetera express como un dispensador de cápsulas, paquetes de cápsulas ó filtros de café"/>
-		<meta property="og:type" content="extras"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/extras"/>
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
@@ -121,7 +121,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales"/>
-		<meta property="og:type" content="sobre"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/sobre"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
@@ -146,7 +146,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Cafetera Express"/>
-		<meta property="og:type" content="contacto"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/contacto"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
@@ -172,7 +172,7 @@
 		<!-- start: Facebook Open Graph -->		
 		<meta property="og:title" content="Cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Análisis y precios de las mejores cafeteras espresso de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar y comparar online"/>
-		<meta property="og:type" content="cafetera"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -206,7 +206,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Cafeteras, precios y análisis en Comprar Cafetera Express"/>
 		<meta property="og:description" content="Análisis y precios de las mejores cafeteras express, máquinas de cafe automáticas, de cápsulas o de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto para que puedas comprar y comparar online"/>
-		<meta property="og:type" content="cafetera"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -240,7 +240,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre cafeteras express de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Cafetera Express"/> 
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras expres en la actualidad de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -274,7 +274,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinión y detalles sobre cafeteras express para comprar tu maquina de cafe online"/>
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de las mejores cafeteras express, automaticas, de cafe molido y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto en la actualidad para que puedas comprar online"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -329,7 +329,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Bienvenido a Comprar Cafetera Express - Análisis y opinión sobre las mejores cafeteras para comprar online"/>
 		<meta property="og:description" content="Información para que puedas comprar tu cafetera express o espresso online de las mejores marcas como cafeteras Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
-		<meta property="og:type" content="principal"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
 		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>

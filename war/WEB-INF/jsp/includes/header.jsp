@@ -27,7 +27,7 @@
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -61,7 +61,7 @@
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -97,7 +97,7 @@
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		</c:if>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -122,8 +122,8 @@
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/sobre"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -131,7 +131,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Sobre nosotros en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Comprar Cafetera Express, su experiencia y valores profesionales">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/sobre"/>	
@@ -146,8 +146,8 @@
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Cafetera Express"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -155,7 +155,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Contacta con nosotros en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Contacta con los que trabajamos en Comprar Cafetera Express">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com/contacto"/>
@@ -177,7 +177,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -211,7 +211,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -245,7 +245,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -279,7 +279,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -328,8 +328,8 @@
 		<meta property="og:description" content="Información para que puedas comprar tu cafetera express o espresso online de las mejores marcas como cafeteras Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
-		<meta property="og:email" content="hola@comprarcafeteraexpress.com"/>
+		<meta property="og:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:site_name" content="Comprar Cafetera Express"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -337,7 +337,7 @@
 		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="Cafeteras express online, cafeteras automaticas, de cápsulas o de café molido en Comprar Cafetera Express">
 		<meta name="twitter:description" content="Información para que puedas comprar tu cafetera express online adecuada a lo que necesitas y de las mejores marcas como Saeco, Senseo, Krups, Nescafe o Dolce Gusto, así como extras para tu maquina de cafe como dispensadores de cápsulas, paquetes de cápsulas o filtros de café">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="http://www.comprarcafeteraexpress.com/img/img-meta/logoGrande1.jpg">
 		<meta name="twitter:domain" content="comprarcafeteraexpress.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comprarcafeteraexpress.com"/>

@@ -28,6 +28,7 @@
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/cafeteras/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -62,6 +63,7 @@
 		<meta property="og:url" content="http://www.comprarcafeteraexpress.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -98,6 +100,7 @@
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -178,6 +181,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -212,6 +216,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -246,6 +251,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -280,6 +286,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Cafetera Express"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">

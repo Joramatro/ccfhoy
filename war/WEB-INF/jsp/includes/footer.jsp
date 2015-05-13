@@ -188,6 +188,7 @@
 <span itemprop="name">Comprar Cafetera Express</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
+				<br><br>
 			</div>
 	
 		</div>

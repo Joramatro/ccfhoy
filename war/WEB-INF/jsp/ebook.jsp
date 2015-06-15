@@ -111,7 +111,7 @@
 				</div>				
 				<div class="span10">			
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
+						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala Hoy');" class="button color launch" target="_blank">¡Comprar Hoy!</a></h2>				
 					</c:if>
 					<!-- Place this tag where you want the +1 button to render. -->
 					<div class="g-plusone"></div> 														
@@ -124,7 +124,7 @@
 					<div class="g-plusone"></div>
 					<br><br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
+						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Comprala hoy al mejor precio');" class="button color launch">¡Comprar Hoy!</a></h2>
 					</c:if>					
 				</div>
 				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">				

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Enumeration;
 
+import javax.cache.CacheException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -24,7 +25,7 @@ public class BlogController extends PublicacionAbstract {
 
     @RequestMapping(value = { "/blog" }, method = { RequestMethod.GET })
     public String getPublicaciones(ModelMap model, HttpServletRequest request,
-	    HttpServletResponse response) throws IOException {
+	    HttpServletResponse response) throws IOException, CacheException {
 
 	setPublicaciones(model, WebConstants.SessionConstants.ARTICULO);
 
@@ -33,7 +34,7 @@ public class BlogController extends PublicacionAbstract {
 
     @RequestMapping(value = { "/extras" }, method = { RequestMethod.GET })
     public String getAccesorios(ModelMap model, HttpServletRequest request,
-	    HttpServletResponse response) throws IOException {
+	    HttpServletResponse response) throws IOException, CacheException {
 
 	setPublicaciones(model, WebConstants.SessionConstants.ACCESORIO);
 
@@ -43,7 +44,7 @@ public class BlogController extends PublicacionAbstract {
     @RequestMapping(value = { "/blog/{url}" }, method = RequestMethod.GET)
     public String cargarPublicacion2(ModelMap model, @PathVariable String url,
 	    HttpServletRequest request, HttpServletResponse response)
-	    throws IOException, NoSuchAlgorithmException {
+	    throws IOException, NoSuchAlgorithmException, CacheException {
 
 	setPublicacion(url, request, model);
 
@@ -72,7 +73,7 @@ public class BlogController extends PublicacionAbstract {
     @RequestMapping(value = { "/cafeteras/{url}" }, method = RequestMethod.GET)
     public String cargarPublicacione3(ModelMap model, @PathVariable String url,
 	    HttpServletRequest request, HttpServletResponse response)
-	    throws IOException, NoSuchAlgorithmException {
+	    throws IOException, NoSuchAlgorithmException, CacheException {
 
 	setPublicacion(url, request, model);
 
@@ -101,7 +102,7 @@ public class BlogController extends PublicacionAbstract {
     @RequestMapping(value = { "/cafeteras" }, method = { RequestMethod.GET })
     public String getPublicacionese3(ModelMap model,
 	    HttpServletRequest request, HttpServletResponse response)
-	    throws IOException {
+	    throws IOException, CacheException {
 
 	setPublicaciones(model, WebConstants.SessionConstants.EBOOK);
 
@@ -112,7 +113,7 @@ public class BlogController extends PublicacionAbstract {
     public String getVenta(ModelMap model, @PathVariable String url,
 	    @PathVariable String tipo, HttpServletRequest request,
 	    HttpServletResponse response) throws IOException,
-	    NoSuchAlgorithmException {
+	    NoSuchAlgorithmException, CacheException {
 	String originalUrl = url;
 	String keyb = null;
 	if (url.endsWith("-2")) {
